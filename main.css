@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+
+.navbar {
+    background-color:#C4DFDF;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #F8F6F4;
+    color: #C4DFDF;
+
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-dogs .nav-link.active:hover{
+    color: #F8F6F4;
+}
+
+.navbar-brand {
+    font-family: Pacifico;
+}
+
+.navbar-toggler{
+    background-color:#D2E9E9;
+}
+
+.section-title{
+    font-family: Pacifico;
+    font-size: 40px;
+}
+
+
+#sobre-o-restaurante,
+#cardapio{
+    background-color: #D2E9E9;
+}
+
+.text-colored{
+    color:#C4DFDF;
+}
+
+
+.nav-dogs .nav-link.active,
+#contatos button{
+    background-color: #C4DFDF;
+    color: #F8F6F4;
+}
+.nav-dogs button{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+h5{
+    border-top: 1px solid #C4DFDF;
+    font-size: 30px;
+    
+    
+}
+
+.nav-dogs .nav-link:hover{
+    color: #C4DFDF;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+@media (max-width:767px){
+    .corousel-item img{
+        height: 280px;
+    }
+}
